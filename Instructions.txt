@@ -1,0 +1,38 @@
+Instructions for Running Carbon (Programming Language)
+======================================================
+
+1. Build the Interpreter
+------------------------
+- Open a terminal in the project directory.
+- Run the following command to compile the interpreter:
+  make
+
+2. Prepare Your Script
+----------------------
+- Write your Carbon script in a file with the .crb extension (for example: myscript.crb).
+- You can refer to the provided script.crb for syntax examples.
+
+3. Run Your Script
+------------------
+- To execute your script, use the following command:
+  ./carbon_run myscript.crb
+
+- Replace 'myscript.crb' with your actual script filename.
+
+4. Example
+----------
+- To run the example script:
+  ./carbon_run script.crb
+
+5. Cleaning Up
+--------------
+- To remove the compiled executable and object files, run:
+  make clean
+
+Notes
+-----
+- Only files ending with the .crb extension are accepted.
+- Output will be displayed in the terminal.
+- For any syntax reference, check the script.crb or README.md.
+
+Enjoy using Carbon!

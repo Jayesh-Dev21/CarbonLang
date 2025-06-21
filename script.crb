@@ -1,0 +1,28 @@
+println! "Hello, Carbon"
+printn! "No, new line "
+println! "See I told you."
+println! "Text"
+
+var_c a = 6
+var_c b = 5
+var_c x = 5.8
+var_c y = 'C'
+
+
+if a > b {
+    if a > b {
+        printn! "Hi, this works "
+    }
+    else {
+        printn! "Hi, this works not "
+    }
+    println! "Carbon is awesome"
+}
+else if a <= b {
+    println! "Carbon is awesome"
+}
+else {
+    println! "5.8 lies in between 5 and 6"
+}
+
+println! "CoCo is a good girl"
