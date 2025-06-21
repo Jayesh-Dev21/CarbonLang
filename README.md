@@ -23,7 +23,7 @@ Carbon is a basic scripting language featuring a custom lexer and transpiler. It
 ├── Makefile
 ├── README.md
 ├── script.crb
-└── src
+└── src/dependencies
     ├── lexer.c
     ├── lexer.h
     ├── transpiler.c
